@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Echo Autism Therapy</title>
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+body{
+    background:#f7fbfc;
+    color:#333;
+    line-height:1.6;
+}
+
+header{
+    background:#2c7da0;
+    color:white;
+    padding:20px 8%;
+}
+
+nav{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+
+nav h1{
+    font-size:28px;
+}
+
+nav ul{
+    list-style:none;
+    display:flex;
+    gap:25px;
+}
+
+nav a{
+    color:white;
+    text-decoration:none;
+    font-weight:bold;
+}
+
+.hero{
+    padding:80px 8%;
+    text-align:center;
+    background:#d9f0f7;
+}
+
+.hero h2{
+    font-size:42px;
+    margin-bottom:20px;
+}
+
+.hero p{
+    max-width:700px;
+    margin:auto;
+    font-size:18px;
+}
+
+.button{
+    display:inline-block;
+    margin-top:30px;
+    padding:14px 28px;
+    background:#2c7da0;
+    color:white;
+    text-decoration:none;
+    border-radius:6px;
+}
+
+section{
+    padding:70px 8%;
+}
+
+.cards{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+    gap:25px;
+    margin-top:35px;
+}
+
+.card{
+    background:white;
+    padding:25px;
+    border-radius:10px;
+    box-shadow:0 5px 15px rgba(0,0,0,.08);
+}
+
+footer{
+    background:#2c7da0;
+    color:white;
+    text-align:center;
+    padding:25px;
+    margin-top:40px;
+}
+
+.contact{
+    background:white;
+    padding:25px;
+    border-radius:10px;
+    box-shadow:0 5px 15px rgba(0,0,0,.08);
+}
+
+@media(max-width:700px){
+
+nav{
+flex-direction:column;
+gap:15px;
+}
+
+nav ul{
+flex-direction:column;
+text-align:center;
+}
+
+.hero h2{
+font-size:32px;
+}
+
+}
+</style>
+
+</head>
+
+<body>
+
+<header>
+
+<nav>
+
+<h1>Echo Autism Therapy</h1>
+
+<ul>
+<li><a href="#about">About</a></li>
+<li><a href="#services">Services</a></li>
+<li><a href="#contact">Contact</a></li>
+</ul>
+
+</nav>
+
+</header>
+
+<section class="hero">
+
+<h2>Helping Children Reach Their Full Potential</h2>
+
+<p>
+Echo Autism Therapy provides compassionate, evidence-based ABA therapy
+to support children with autism and empower families through individualized care.
+</p>
+
+<a class="button" href="#contact">Request Information</a>
+
+</section>
+
+<section id="about">
+
+<h2>About Us</h2>
+
+<p style="margin-top:20px;">
+Our mission is to provide high-quality autism therapy services in a caring,
+supportive environment. We work closely with families to create personalized
+treatment plans that help children develop communication, social, and daily living skills.
+</p>
+
+</section>
+
+<section id="services">
+
+<h2>Our Services</h2>
+
+<div class="cards">
+
+<div class="card">
+<h3>ABA Therapy</h3>
+<p>
+Individualized Applied Behavior Analysis programs tailored to each child's needs.
+</p>
+</div>
+
+<div class="card">
+<h3>Parent Training</h3>
+<p>
+Helping families build effective strategies that support progress at home.
+</p>
+</div>
+
+<div class="card">
+<h3>Early Intervention</h3>
+<p>
+Focused therapy designed to support young children during critical developmental years.
+</p>
+</div>
+
+</div>
+
+</section>
+
+<section id="contact">
+
+<h2>Contact Us</h2>
+
+<div class="contact">
+
+<p><strong>Email:</strong> info@echoautismtherapy.com</p>
+
+<p><strong>Phone:</strong> (555) 123-4567</p>
+
+<p><strong>Address:</strong> Your City, State</p>
+
+<br>
+
+<p>
+Interested in learning more? We'd love to hear from you.
+</p>
+
+<a class="button" href="mailto:info@echoautismtherapy.com">Email Us</a>
+
+</div>
+
+</section>
+
+<footer>
+
+<p>
+© 2026 Echo Autism Therapy. All Rights Reserved.
+</p>
+
+</footer>
+
+</body>
+</html>
